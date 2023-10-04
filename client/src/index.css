@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  background-color: rgb(245 245 245);
+}
+.activeProfLink {
+  border-bottom: 2px solid rgb(101, 101, 101);
+}
+.setHeight {
+  height: calc(100vh - 60px);
+}
+.setHeightM {
+  height: calc(100vh - 100px);
+}
