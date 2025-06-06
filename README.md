@@ -32,9 +32,29 @@ A full-stack messaging application. Users can send friend requests, chat instant
 
 ### Setup
 1. Clone repository:
-```bash
-  
+
 ```
+  git clone git@github.com:jamil-babayev/Messaging-App.git
+  cd Messaging-App
+```
+
+2. Start node.js process:
+
+```
+  cd server
+  npm install
+  node server.js &
+```
+
+3. Start react process
+
+```
+  cd client
+  npm install
+  npm start
+```
+
+### Snapshots
 
 ![Messenger App Preview](./client/public/messaging.png)
 ![Messenger App Preview](./client/public/request.png)
